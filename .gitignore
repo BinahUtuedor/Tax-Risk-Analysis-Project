@@ -1,0 +1,70 @@
+# =========================
+# VIRTUAL ENVIRONMENTS
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# PYTHON CACHE
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# DISTRIBUTION / BUILD
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# JUPYTER NOTEBOOKS
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE SETTINGS
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# PROJECT OUTPUTS (IMPORTANT)
+# =========================
+# You usually DON'T version ML outputs
+outputs/
+data/raw/
+data/processed/
+
+# (Optional) If you want to keep structure but not files:
+# outputs/run_*/
+# data/raw/*
+# data/processed/*
+
+# =========================
+# LOG FILES
+# =========================
+*.log
+
+# =========================
+# ENV VARIABLES (if you ever add them)
+# =========================
+.env
+.env.local
+
+# =========================
+# MODEL ARTIFACTS (optional if stored elsewhere)
+# =========================
+*.pkl
+*.joblib
