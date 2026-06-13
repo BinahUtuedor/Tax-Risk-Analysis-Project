@@ -1,4 +1,4 @@
-# Tax Risk Scoring Project
+# Tax Risk Analysis Project
 
 ### From Synthetic Taxpayer Data to Explainable Compliance Decisions — An End-to-End Tax Risk Analytics Platform
 
@@ -181,7 +181,7 @@ The workflow executes the following stages:
 # 📁 Project Structure
 
 ```text
-tax_risk_scoring_project/
+tax_risk_analysis_project/
 │
 ├── data/
 │   ├── raw/
